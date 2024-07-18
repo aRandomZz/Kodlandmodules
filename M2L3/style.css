@@ -1,0 +1,59 @@
+body {
+    font-family: 'Inter', sans-serif; /* Familia de fuentes */
+    font-size: 10%; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #8ba6ff; /* El color del fondo de la página web */
+    margin:0;
+    color:#5988FF; /* El color del texto*/ 
+}
+header{
+    background-color:#D6FF6B;
+    width: 100%;
+    column-span: all;
+    h1{
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        margin: 20px;
+        font-size: 9000%;
+        color:#5988FF
+    }
+    h3{
+        font-family: 'Inter', sans-serif;
+        margin-top:0%;
+        text-align: center;
+        margin-bottom: 5%;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 3000%;
+        color:#5988FF;
+        letter-spacing: 10px;
+    }
+}
+h2{
+    color:rgb(251, 244, 255);
+    font-family: 'Inter', sans-serif;
+    margin-left:20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size:2000%
+}
+p{
+    color:rgb(251, 244, 255);
+    font-family: 'Inter', sans-serif;
+    margin-left:20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size:1200%
+}
+li{
+    color:rgb(251, 244, 255);
+    font-family: 'Inter', sans-serif;
+    margin: 10px;
+    margin-left:20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size:1200%
+}
+img{
+    margin-left:20px;
+    margin: 10px
+}
