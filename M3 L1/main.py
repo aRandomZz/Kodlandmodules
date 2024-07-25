@@ -20,8 +20,10 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     url_for('static', filename='style.css')
-    return f'<link rel="stylesheet" href="../static/style.css"> <body><p>{random.choice(FACTS_LIST)}</p></body>'
+    return f'<link rel="stylesheet" href="../static/style.css"> <body><h1>Hola! en esta página verás datos aleatorios sobre la dependencia tecnológica</h1><a href="/random_fact">¡Ver un dato aleatorio!</a></body>'
         
-
+@app.route("/random_fact")
+def random_fact():
+     return f'<link rel="stylesheet" href="../static/style.css"> <body><p>{random.choice(FACTS_LIST)}</p></body>'
 
 app.run(debug=True)
