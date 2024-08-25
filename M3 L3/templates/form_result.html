@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../static/css/style.css">
+    <title>Envío de formulario</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__text">
+          <h1>Gracias por rellenar el formulario.</h1>
+          <p>Tome la iniciativa y resuelva el problema del consumo excesivo de energía</p>
+        </div>
+    </header>
+    <br>
+    <main>
+    {% block content %}
+    <p>Su nombre: {{name}}</p>
+    <p>Su E-mail: {{email}}</p>
+    <p>Su dirección: {{address}}</p>
+    <p>Su fecha: {{date}}</p>
+    {%endblock %}
+</main>
+</body>
+</html>
